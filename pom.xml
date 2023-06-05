@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.springboot.blog</groupId>
-	<artifactId>springboot-blog-rest-api</artifactId>
+	<artifactId>springboot-rest-with-cors</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>springboot-app -rest-api</name>
+	<name>springboot-app-rest-api</name>
 	<description>Spring boot application rest api&apos;s</description>
 	<properties>
 		<java.version>1.8</java.version>
@@ -40,6 +40,7 @@
 		<dependency>
 			<groupId>org.projectlombok</groupId>
 			<artifactId>lombok</artifactId>
+			<version>1.18.22</version>
 			<optional>true</optional>
 		</dependency>
 		<!-- https://mvnrepository.com/artifact/org.modelmapper/modelmapper -->
