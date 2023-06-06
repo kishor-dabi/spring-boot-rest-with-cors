@@ -19,6 +19,7 @@ com\springboot\app\exception\ResourceNotFoundException.class
 com\springboot\app\payload\PostDto.class
 com\springboot\app\controller\AuthController.class
 com\springboot\app\security\JwtAuthenticationFilter.class
+com\springboot\app\config\SecurityConfig$1.class
 com\springboot\app\payload\CommentDto.class
 com\springboot\app\repository\CommentRepository.class
 com\springboot\app\service\impl\PostServiceImpl.class

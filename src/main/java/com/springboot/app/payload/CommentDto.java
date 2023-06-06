@@ -2,11 +2,12 @@ package com.springboot.app.payload;
 
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiModelProperty;
+import jakarta.validation.constraints.Email;
+import jakarta.validation.constraints.NotEmpty;
+import jakarta.validation.constraints.Size;
 import lombok.Data;
 
-import javax.validation.constraints.Email;
-import javax.validation.constraints.NotEmpty;
-import javax.validation.constraints.Size;
+
 
 @Api(value = "Comment model information")
 @Data

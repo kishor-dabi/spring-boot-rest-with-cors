@@ -2,10 +2,11 @@ package com.springboot.app.payload;
 
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
+import jakarta.validation.constraints.NotEmpty;
+import jakarta.validation.constraints.Size;
 import lombok.Data;
 
-import javax.validation.constraints.NotEmpty;
-import javax.validation.constraints.Size;
+
 import java.util.Set;
 
 @ApiModel(description = "Post model information")
